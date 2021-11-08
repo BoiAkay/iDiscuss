@@ -1,0 +1,1 @@
+iDiscuss is an Online Discussion Forum project. This forum is developed using PHP (for backend) and bootstrap (for frontend). Most of the credit goes to CodeWithHarry for iDiscuss. However, i improved and added new features in iDiscuss.
