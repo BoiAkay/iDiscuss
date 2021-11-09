@@ -17,7 +17,7 @@
 <body>
     <!-- admin login page-->
     <div class="container">
-        <form action="/forum/partials/_handle_admin_login.php" method="POST">
+        <form action="/idiscuss/partials/_handle_admin_login.php" method="POST">
             <div class="mb-3 my-3">
                 <label for="admin_email" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="admin_email" name="admin_email" aria-describedby="emailHelp">
