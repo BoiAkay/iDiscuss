@@ -2,7 +2,7 @@
     @session_start();
     echo '<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/forum">
+      <a class="navbar-brand" href="/idiscuss">
       <img src="images/android-chrome-512x512.png" width="30" height="30" class="d-inline-block align-top" alt="">
       
       iDiscuss
@@ -15,7 +15,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/forum">Home</a>
+            <a class="nav-link active" aria-current="page" href="/idiscuss">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="aboutus.php" >About Us</a>
