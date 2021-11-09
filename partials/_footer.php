@@ -71,7 +71,7 @@
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2021 Copyright:
-        <a href="/forum">iDiscuss</a>
+        <a href="/idiscuss">iDiscuss</a>
     </div>
     <!-- Copyright -->
 
