@@ -6,7 +6,7 @@
                 <h5 class="modal-title" id="loginmodalLabel">Login to iDiscuss</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form action="/forum/partials/_handlelogin.php" method="POST">
+            <form action="/idiscuss/partials/_handlelogin.php" method="POST">
                 <div class="modal-body">
 
                     <div class="mb-3">
