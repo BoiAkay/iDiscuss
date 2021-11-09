@@ -10,7 +10,7 @@
                 <text class="text-center"><h6>Join the community of 100+ useres</h6></text>
             </div>
             <div class="modal-body">
-                <form action="/forum/partials/_handlesignup.php" method="post"> 
+                <form action="/idiscuss/partials/_handlesignup.php" method="post"> 
                 <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
                         <input type="text" class="form-control" id="user_name" name="user_name" aria-describedby="user_name">
