@@ -25,7 +25,7 @@
             {   
                 $loginsuccess=false;
                 $error="Email or device is not valid";
-                header("Location: /forum/index.php?login_success=false&error=$error");
+                header("Location: /idiscuss/index.php?login_success=false&error=$error");
                 exit();
             }
         }
@@ -33,11 +33,11 @@
         {
             $loginsuccess=false;
             $error="Email not exists.";
-           header("Location: /forum/index.php?login_success=false&error=$error");
+           header("Location: /idiscuss/index.php?login_success=false&error=$error");
             exit();
         }
-       header("Location: /forum/admin.php");  
+       header("Location: /idiscuss/admin.php");  
         exit();
     }
-    header("Location: /forum/");
+    header("Location: /idiscuss/");
 ?>
