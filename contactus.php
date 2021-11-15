@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<link rel="icon" href="images/favicon-32x32.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="images/favicon-32x32.png" type="image/png" sizes="16x16">
     <!-- included meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,33 +19,46 @@
         include 'partials/_header.php';
     ?>
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://source.unsplash.com/5000x700/?tech,company" class="d-block w-100" alt="...">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://source.unsplash.com/5000x700/?tech,company" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/5000x700/?user,helpdesk" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://source.unsplash.com/5000x700/?computer,tech" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-    <div class="carousel-item">
-      <img src="https://source.unsplash.com/5000x700/?user,helpdesk" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://source.unsplash.com/5000x700/?computer,tech" class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
     <div class="container my-3">
-        <h3 class="text-center">Contact Us</h3> 
+        <h2 class="text-center">Developer Contact</h2>
+        <div class="container">
+            <ul><h3>
+                <li><b>Ayush Kumar Gupta</b></li>
+                  <p>&ensp;Roll no. : <i>2K21/CSE/08</i><br>&ensp; Email : <a href="mailto:ayushkumargupta_2k21cse08@dtu.ac.in"><i>ayushkumargupta_2k21cse08@dtu.ac.in</i></a><p>
+                  <li><b>Shivam Sharma</b></li>
+                  <p>&ensp;Roll no. : <i>2K21/CSE/20</i><br>&ensp; Email : <a href="mailto:shivamsharma_2k21cse20@dtu.ac.in"><i>shivamsharma_2k21cse20@dtu.ac.in</i></a><p>
+            </ul></h3>
+        </div>
     </div>
     <?php
         include 'partials/_footer.php';
