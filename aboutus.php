@@ -61,7 +61,7 @@
                         <li>Do not cross post questions. </li>
                         <li>Remain respectful of other members at all times.</li>
                     </ul></h4>
-        <small>If anyone found violating above guidelines than grateful action will be taken against the user.<small>            
+        <small>If anyone found violating above guidelines than needful action will be taken against the user.<small>            
     </div>
     <?php
         include 'partials/_footer.php';
