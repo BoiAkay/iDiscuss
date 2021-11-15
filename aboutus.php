@@ -50,7 +50,18 @@
         </button>
     </div>
     <div class="container my-3">
-        <h3 class="text-center">About Us</h3>
+        <h2 class="text-center">About Us</h2>
+        <h4><p>iDiscuss is an online discussion forum, where a user can post the issues which he/she is facing.<br>This forum is created to help the developer community to resolve the issues during project developments.</p></h4>
+        <h4><div class="text-center">Community Guidelines</div></h4>
+        <h4><ul>
+                        <li> This is a peer to peer forum.</li>
+                        <li>No Spam / Advertising / Self-promote in the forums is not allowed.</li>
+                        <li>Do not post copyright-infringing material. </li>
+                        <li>Do not post “offensive” posts, links or images.</li>
+                        <li>Do not cross post questions. </li>
+                        <li>Remain respectful of other members at all times.</li>
+                    </ul></h4>
+        <small>If anyone found violating above guidelines than grateful action will be taken against the user.<small>            
     </div>
     <?php
         include 'partials/_footer.php';
